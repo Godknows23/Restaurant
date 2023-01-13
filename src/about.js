@@ -8,9 +8,9 @@ function render() {
     "p",
     null,
     ["cursive", "golden"],
-    "Bienvenidos"
+    ""
   );
-  const $title = createHtmlElement("h1", null, ["gray"], "Nosotros");
+  const $title = createHtmlElement("h1", null, ["gray"], "");
 
   const $hr = document.createElement("hr");
 

@@ -1,3 +1,9 @@
+html {
+  background-image: url("img/kare.png")
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +11,7 @@
     font-family: "Montserrat", sans-serif;
     text-align: center;
     background-color: #62615f;
+    background-image: url("img/kare.png")
   }
   
   #content {
@@ -18,10 +25,11 @@
   }
   
   .main {
-    background: #2e1b1b;
+    background: #999494;
     height: 100%;
     max-height: calc(100% - 188px);
     overflow: scroll;
+    background-image: url("img/kare.png")
   }
   /* menu */
   
@@ -67,6 +75,7 @@
   }
   footer p {
     margin: auto;
+
   }
   /*Typography*/
   
@@ -113,6 +122,7 @@
     margin: 0 auto;
     margin-top: 40px;
     cursor: pointer;
+    background-color: gold;
   }
   button:hover {
     color: rgb(139, 26, 26);

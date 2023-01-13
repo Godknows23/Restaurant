@@ -41,7 +41,7 @@ document.addEventListener("click", (e) => {
   const target = e.target.innerText;
 
   if (target === "HOME") home();
-  if (target === "MENU" || target === "VER EL MENU") menu();
+  if (target === "MENU" || target === "MENU") menu();
   if (target === "ABOUT") about();
 });
 export { createHtmlElement, $content };

@@ -7,7 +7,7 @@ function render() {
     "p",
     null,
     ["cursive", "golden"],
-    "Bienvenidos"
+    ""
   );
   const $title = createHtmlElement("h1", null, ["white"], "La panaderia");
 
@@ -18,7 +18,7 @@ function render() {
     ["text-center", "white"],
     "True ingredients, true flavors, true passion. Good food doesn't need to be complicated"
   );
-  const $button = createHtmlElement("button", null, null, "Ver el menu");
+  const $button = createHtmlElement("button", null, null, "menu");
 
   $main.appendChild($bienvenidos);
   $main.appendChild($title);
